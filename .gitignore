@@ -1,0 +1,33 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic database logs and simulation storage
+server/db_files.json
+server/db_logs.json
+server/storage/
+client/src/assets/test_upload.txt
+
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build files
+client/dist/
+
+# Environmental variables (secrets)
+.env
+client/.env
+server/.env
+.env*.local
+
+# Editor configs and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
